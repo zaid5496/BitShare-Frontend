@@ -92,6 +92,61 @@ const LandingPage = () => {
             limits and expiration
             controls.
           </p>
+
+            <div
+            className="
+                flex
+                justify-center
+                gap-4
+                mt-8
+            "
+            >
+            <a
+                href="/login"
+                className="
+                bg-violet-600
+                hover:bg-violet-700
+
+                text-white
+
+                px-6
+                py-3
+
+                rounded-xl
+
+                font-medium
+
+                transition
+                "
+            >
+                Sign In
+            </a>
+
+            <a
+                href="/register"
+                className="
+                bg-[#171923]
+
+                border
+                border-[#262a35]
+
+                text-white
+
+                px-6
+                py-3
+
+                rounded-xl
+
+                font-medium
+
+                transition
+
+                hover:border-violet-500
+                "
+            >
+                Create Account
+            </a>
+            </div>
         </div>
 
         {/* Upload Area */}
